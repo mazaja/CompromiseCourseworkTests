@@ -10,7 +10,7 @@ from source import NeuralNetwork
 identity = np.vectorize(lambda x:x)
 square = np.sqrt
 
-class TestLayer(unittest.TestCase):
+class TestNeuralNetwork(unittest.TestCase):
     def test_constructor(self):
         M1 = np.ones([4,3])
         M2 = np.ones([5,4])
